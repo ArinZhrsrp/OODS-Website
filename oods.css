@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4E457D; 
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  background-color: #4E457D;
+  color: #FFFFFF;
+  height: 100%; 
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #FFFFFF;
+}
+
+.link{
+  float: right;
+  display: block;
+  color: #737373;
+  padding: 40px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+/*Style Button Register*/
+.link2{
+  float: right;
+  display: block;
+  color: #737373;
+  padding: 25px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.button{
+  background-color: #4E457D; 
+  color: white; 
+  display: block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+}
+
+.button:hover {
+  background-color: #E47474;
+  color: white;
+}
+
+.border {border-radius: 30px;}
+
+
+/*Style Landing Page Text*/
+.delivery{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  width: 640px;
+  padding-top: 150px; 
+}
+
+.centralised{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+}

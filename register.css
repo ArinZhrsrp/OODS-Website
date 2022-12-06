@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4E457D;
+background-image: url("Icon/BGRegister.png");}
+
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.link{
+  float: right;
+  display: block;
+  color: #737373;
+  padding: 40px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  margin-right: 30px;
+}
+
+
+/*Style Register UI*/
+
+.heading{
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.heading2{
+  font-family: serif;
+  font-size: 20px;
+  color: #737373;
+
+}
+  
+
+ input[type=text], input[type=password] {   
+  width: 80%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;     
+  box-sizing: border-box;   
+}   
+       
+     
+.container {   
+  padding: 10px;   
+  background-color: white;
+  width: 60%;
+  align-content: center;  
+}  
+
+form{ padding: 0px 10px 5px 500px; }
+
+.center{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 170px;
+ }
+
+.border2{border-radius: 20px;}
+
+
+
+/*Style  Link */
+
+.login {
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #F21818;
+}
+
+
+
+
+/*Style Register Next Page*/
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+  width: 80%;
+  margin-left: 55px;
+}
+
+button {
+  background-color: #4E457D;
+  color: #ffffff;
+  border: none;
+  padding: 20px 50px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+button:hover {
+  background-color: #E47474;
+  color: white;
+}
+
+.prevBtn{
+  opacity: 0.53;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+
+
+
+
+
+
+
+

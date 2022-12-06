@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4E457D;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.link{
+  float: right;
+  display: block;
+  color: #737373;
+  padding: 40px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+/*Style Button Register*/
+.link2{
+  float: right;
+  display: block;
+  color: #737373;
+  padding: 25px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.button{
+  background-color: #4E457D; 
+  color: white; 
+  display: block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+}
+
+.button:hover {
+  background-color: #E47474;
+  color: white;
+}
+
+.border {border-radius: 30px;}
+
+
+/*Style Landing Page Text*/
+.delivery{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  width: 640px;
+  padding-top: 150px; 
+}
+
+.centralised{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+}
+
+
+
+/*Style Login UI*/
+
+.heading{
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.heading2{
+  font-family: serif;
+  font-size: 20px;
+  color: #737373;
+
+}
+
+button{
+  background-color: #4E457D; 
+  color: white; 
+  display: block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  padding: 20px 70px;
+}
+
+button:hover {
+  background-color: #E47474;
+  color: white;
+}   
+
+ input[type=text], input[type=password] {   
+  width: 80%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;     
+  box-sizing: border-box;   
+}  
+  
+
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+        
+     
+.container {   
+  padding: 10px;   
+  background-color: white;
+  width: 80%;
+  height: 90%;
+  align-content: center;  
+}  
+
+form{ padding: 50px 10px 10px 250px; }
+
+.center{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 365px;
+ }
+
+.border2{border-radius: 20px;}
+
+
+/*Style Forgot Pass Link */
+
+.forgotPass {
+  float: right;
+  display: block;
+  margin-right: 100px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #F21818;
+}
+
+.signUp {
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #F21818;
+}
+
+
+
+
+
+
+
